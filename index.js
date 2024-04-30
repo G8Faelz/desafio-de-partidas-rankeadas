@@ -17,8 +17,8 @@ function calcularNivel(vitorias, derrotas) {
       nivel = "Imortal";
   }
 
-  return `O Herói tem saldo de ${saldoVitorias} e está no nível de ${nivel}`;
+  return "O Herói tem saldo de " + saldoVitorias + "e está no nível de " + nivel;
 }
 
-let mensagem = calcularNivel(105, 20);
-console.log(mensagem); 
+let calculo = calcularNivel(105, 20);
+console.log(calculo); 
